@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Bradson's Main Button Icons for Vanilla Textures Expanded</name>
+	<packageId>bs.mbifvte</packageId>
+	<supportedVersions>
+		<li>1.1</li>
+		<li>1.2</li>
+	</supportedVersions>
+	<author>bradson</author>
+	<description>Main button icons for mods that lack them, or otherwise look out of place. Just like the other two expansion mods for Vanilla Textures Expanded, except with a few more icons, slightly better compatibility and a different style once again.
+
+This isn't related to Vanilla Textures Expanded anyway, but that mod adds icons to vanilla buttons, and this is meant to fill the gap VTE leaves for mod icons. The preview image includes some of their icons.
+
+Supported Tabs:
+Animal Genetics
+Auto Seller
+Character Editor
+Colony Leadership
+Colony Manager
+Days Matter
+Drug Response
+Dubs Performance Analyzer
+Empire
+FloraTab
+Hospitality
+InventoryTab
+List Everything
+MedicalTab
+Mercenaries For Me
+Misc Robots
+ModButtons
+Numbers
+Pawnmorpher
+Pharmacist
+RIMMSqol (including its optional buttons)
+RimWar
+Rocketman
+RPG Style Level Up
+SafeJobWorld
+Simple Slavery
+Tales And News
+Tenants
+WeaponsTab
+WeaponStats
+What The Hack
+WikiRim
+
+Fork, Continued, Updated, Renamed or whatever else doesn't matter. If the tab name matches it gets the icon.
+Also includes DDS files for use with high quality textures from AUTOMATIC, as well as special handling for overwriting other main button icon mods without throwing errors, as long as this is loaded after them.
+
+A folder with alternative icons that could be used in place of the other ones by renaming and copy-pasting is located in [Mods]\2361775777\SpareIcons
+
+Credits:
+Icons from icons8 ( https://icons8.com/ ), with recoloring and other changes done by me for all of them.
+Cody Spring and Drgn! Netrve for inspiration with their Vanilla Textures Expanded - Mod Expansion
+Oskar Potocki, Helixien, Erin, ISOREX, XeoNovaDan for Vanilla Textures Expanded
+
+License:
+https://icons8.com/license for icons, CC BY 4.0 ( https://creativecommons.org/licenses/by/4.0/ ) for everything else</description>
+</ModMetaData>
