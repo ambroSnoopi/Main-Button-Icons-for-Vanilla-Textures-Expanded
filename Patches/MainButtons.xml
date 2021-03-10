@@ -1,6 +1,48 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 
+<Operation Class="PatchOperationConditional">
+	<success>Always</success>
+	<xpath>/Defs/MainButtonDef[defName="WC_OpenWorksControllerConfigMenu"]/iconPath</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>/Defs/MainButtonDef[defName="WC_OpenWorksControllerConfigMenu"]</xpath>
+		<value>
+			<iconPath>UI/Buttons/MainButtons/WorksController</iconPath>
+		</value>
+	</nomatch>
+	<match Class="PatchOperationReplace">
+		<xpath>/Defs/MainButtonDef[defName="WC_OpenWorksControllerConfigMenu"]/iconPath</xpath>
+		<value>
+			<iconPath>UI/Buttons/MainButtons/WorksController</iconPath>
+		</value>
+	</match>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<success>Always</success>
+	<xpath>/Defs/MainButtonDef[defName="ItemList"]/iconPath</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>/Defs/MainButtonDef[defName="ItemList"]</xpath>
+		<value>
+			<iconPath>UI/Buttons/MainButtons/ItemList</iconPath>
+		</value>
+	</nomatch>
+	<match Class="PatchOperationReplace">
+		<xpath>/Defs/MainButtonDef[defName="ItemList"]/iconPath</xpath>
+		<value>
+			<iconPath>UI/Buttons/MainButtons/ItemList</iconPath>
+		</value>
+	</match>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+	<success>Always</success>
+	<xpath>/Defs/MainButtonDef[defName="RPMainButton"]/iconPath</xpath>
+	<value>
+		<iconPath>UI/Buttons/MainButtons/Rimpedia</iconPath>
+	</value>
+</Operation>
+
 <Operation Class="PatchOperationReplace">
 	<success>Always</success>
 	<xpath>/Defs/MainButtonDef[defName="MSqolSearch"]/iconPath</xpath>

@@ -7,6 +7,11 @@
 		<li>1.2</li>
 	</supportedVersions>
 	<author>bradson</author>
+	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Royalty</li>
+		<li>Orion.Hospitality</li>
+	</loadAfter>
 	<description>Main button icons for mods that lack them, or otherwise look out of place. Just like the other two expansion mods for Vanilla Textures Expanded, except with a few more icons, slightly better compatibility and a different style once again.
 
 This isn't related to Vanilla Textures Expanded anyway, but that mod adds icons to vanilla buttons, and this is meant to fill the gap VTE leaves for mod icons. The preview image includes some of their icons.
@@ -31,8 +36,10 @@ Misc Robots
 ModButtons
 Numbers
 Pawnmorpher
+Pawns Items List
 Pharmacist
 RIMMSqol (including its optional buttons)
+Rimpedia
 RimWar
 Rocketman
 RPG Style Level Up
@@ -44,11 +51,12 @@ WeaponsTab
 WeaponStats
 What The Hack
 WikiRim
+Works Controller
 
 Fork, Continued, Updated, Renamed or whatever else doesn't matter. If the tab name matches it gets the icon.
-Also includes DDS files for use with high quality textures from AUTOMATIC, as well as special handling for overwriting other main button icon mods without throwing errors, as long as this is loaded after them.
+Also includes DDS files for use with either High quality textures or Graphics Setter, as well as special handling for overwriting other main button icon mods without throwing errors, as long as this is loaded after them.
 
-A folder with alternative icons that could be used in place of the other ones by renaming and copy-pasting is located in [Mods]\2361775777\SpareIcons
+A folder with alternative icons that could be used in place of other ones by renaming and copy-pasting is located in [Mods]\2361775777\SpareIcons
 
 Credits:
 Icons from icons8 ( https://icons8.com/ ), with recoloring and other changes done by me for all of them.
