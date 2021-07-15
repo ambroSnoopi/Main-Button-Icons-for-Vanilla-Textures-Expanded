@@ -510,7 +510,7 @@
 
 <Operation Class="PatchOperationReplace">
 	<success>Always</success>
-	<xpath>/Defs/MainButtonDef[defName="Brothel"]/iconPath</xpath>
+	<xpath>/Defs/MainButtonDef[defName="Brothel" or defName="RJW_Brothel"]/iconPath</xpath>
 	<value>
 		<iconPath>UI/Buttons/MainButtons/RJW</iconPath>
 	</value>
@@ -615,13 +615,47 @@
 	<nomatch Class="PatchOperationAdd">
 		<xpath>/Defs/MainButtonDef[defName="Guests"]</xpath>
 		<value>
-			<iconPath>UI/Buttons/MainButtons/Guests</iconPath>
+			<iconPath>UI/Buttons/MainButtons/Hospitality</iconPath>
 		</value>
 	</nomatch>
 	<match Class="PatchOperationReplace">
 		<xpath>/Defs/MainButtonDef[defName="Guests"]/iconPath</xpath>
 		<value>
-			<iconPath>UI/Buttons/MainButtons/Guests</iconPath>
+			<iconPath>UI/Buttons/MainButtons/Hospitality</iconPath>
+		</value>
+	</match>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<success>Always</success>
+	<xpath>/Defs/MainButtonDef[defName="Colonies"]/iconPath</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>/Defs/MainButtonDef[defName="Colonies"]</xpath>
+		<value>
+			<iconPath>UI/Buttons/MainButtons/FactionManager</iconPath>
+		</value>
+	</nomatch>
+	<match Class="PatchOperationReplace">
+		<xpath>/Defs/MainButtonDef[defName="Colonies"]/iconPath</xpath>
+		<value>
+			<iconPath>UI/Buttons/MainButtons/FactionManager</iconPath>
+		</value>
+	</match>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<success>Always</success>
+	<xpath>/Defs/MainButtonDef[defName="Rimocracy_Politics"]/iconPath</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>/Defs/MainButtonDef[defName="Rimocracy_Politics"]</xpath>
+		<value>
+			<iconPath>UI/Buttons/MainButtons/Rimocracy</iconPath>
+		</value>
+	</nomatch>
+	<match Class="PatchOperationReplace">
+		<xpath>/Defs/MainButtonDef[defName="Rimocracy_Politics"]/iconPath</xpath>
+		<value>
+			<iconPath>UI/Buttons/MainButtons/Rimocracy</iconPath>
 		</value>
 	</match>
 </Operation>
