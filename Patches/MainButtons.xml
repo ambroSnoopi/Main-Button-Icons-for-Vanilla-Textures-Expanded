@@ -662,15 +662,15 @@
 
 <Operation Class="PatchOperationConditional">
 	<success>Always</success>
-	<xpath>/Defs/MainButtonDef[defName="Prisoners"]/iconPath</xpath>
+	<xpath>/Defs/MainButtonDef[defName="PL_Prisoners_Menu"]/iconPath</xpath>
 	<nomatch Class="PatchOperationAdd">
-		<xpath>/Defs/MainButtonDef[defName="Prisoners"]</xpath>
+		<xpath>/Defs/MainButtonDef[defName="PL_Prisoners_Menu"]</xpath>
 		<value>
 			<iconPath>UI/Buttons/MainButtons/Prisoners</iconPath>
 		</value>
 	</nomatch>
 	<match Class="PatchOperationReplace">
-		<xpath>/Defs/MainButtonDef[defName="Prisoners"]/iconPath</xpath>
+		<xpath>/Defs/MainButtonDef[defName="PL_Prisoners_Menu"]/iconPath</xpath>
 		<value>
 			<iconPath>UI/Buttons/MainButtons/Prisoners</iconPath>
 		</value>
