@@ -728,4 +728,21 @@
 	</match>
 </Operation>
 
+<Operation Class="PatchOperationConditional">
+	<success>Always</success>
+	<xpath>/Defs/MainButtonDef[defName="ShipChunkTab_ShipChunks"]/iconPath</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>/Defs/MainButtonDef[defName="ShipChunkTab_ShipChunks"]</xpath>
+		<value>
+			<iconPath>UI/Buttons/MainButtons/ShipChunks</iconPath>
+		</value>
+	</nomatch>
+	<match Class="PatchOperationReplace">
+		<xpath>/Defs/MainButtonDef[defName="ShipChunkTab_ShipChunks"]/iconPath</xpath>
+		<value>
+			<iconPath>UI/Buttons/MainButtons/ShipChunks</iconPath>
+		</value>
+	</match>
+</Operation>
+
 </Patch>
