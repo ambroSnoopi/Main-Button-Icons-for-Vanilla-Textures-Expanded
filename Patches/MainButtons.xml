@@ -711,4 +711,21 @@
 	</match>
 </Operation>
 
+<Operation Class="PatchOperationConditional">
+	<success>Always</success>
+	<xpath>/Defs/MainButtonDef[defName="TM_GolemButton"]/iconPath</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>/Defs/MainButtonDef[defName="TM_GolemButton"]</xpath>
+		<value>
+			<iconPath>UI/Buttons/MainButtons/Golems</iconPath>
+		</value>
+	</nomatch>
+	<match Class="PatchOperationReplace">
+		<xpath>/Defs/MainButtonDef[defName="TM_GolemButton"]/iconPath</xpath>
+		<value>
+			<iconPath>UI/Buttons/MainButtons/Golems</iconPath>
+		</value>
+	</match>
+</Operation>
+
 </Patch>
