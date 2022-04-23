@@ -683,13 +683,30 @@
 	<nomatch Class="PatchOperationAdd">
 		<xpath>/Defs/MainButtonDef[defName="CorpseTab_Corpses"]</xpath>
 		<value>
-			<iconPath>UI/Buttons/MainButtons/MedicalTab</iconPath>
+			<iconPath>UI/Buttons/MainButtons/CorpseTab</iconPath>
 		</value>
 	</nomatch>
 	<match Class="PatchOperationReplace">
 		<xpath>/Defs/MainButtonDef[defName="CorpseTab_Corpses"]/iconPath</xpath>
 		<value>
-			<iconPath>UI/Buttons/MainButtons/MedicalTab</iconPath>
+			<iconPath>UI/Buttons/MainButtons/CorpseTab</iconPath>
+		</value>
+	</match>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<success>Always</success>
+	<xpath>/Defs/MainButtonDef[defName="Windups"]/iconPath</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>/Defs/MainButtonDef[defName="Windups"]</xpath>
+		<value>
+			<iconPath>UI/Buttons/MainButtons/Windups</iconPath>
+		</value>
+	</nomatch>
+	<match Class="PatchOperationReplace">
+		<xpath>/Defs/MainButtonDef[defName="Windups"]/iconPath</xpath>
+		<value>
+			<iconPath>UI/Buttons/MainButtons/Windups</iconPath>
 		</value>
 	</match>
 </Operation>
